@@ -75,7 +75,7 @@ body > section {
 
 .section-title h2 {
     color: #333;
-    font-family: "Baloo Thambi",cursive;
+    // font-family: "Baloo Thambi",cursive;
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -166,6 +166,7 @@ body > section {
 
 .animated-nav .navigation .navbar-nav > li > a {
   padding: 23px 25px;
+  color: #333;
 }
 
 .animated-nav#navigation > .container {
@@ -317,14 +318,15 @@ body > section {
     margin-top: 50px;
     display: inline-block;
     border: 2px solid #fff;
-    padding: 17px 30px;
+    padding: 10px 20px;
 }
 
 .home-intro .available li span{
-    font-size: 14px; 
+    font-size: 24px; 
     letter-spacing: 1px;
-    font-family: 'Slabo 27px', serif;
+    // font-family: 'Slabo 27px', serif;
     text-transform: uppercase;
+    color: #fff;
 }
 
 .home-intro .available li i {
@@ -430,19 +432,21 @@ body > section {
     padding-bottom: 0;
     position: relative;
     overflow: hidden;
+    padding: 50px 0;
 }
 
 .mobile-device {
   position: relative;
 }
 
-.mobile-device img {
+.mobile-device img,.mobile-device video {
   float: left;
   position: relative;
+  width: 50%;
 }
 
 .mobile-device .black {
-  left: 98px;
+  // left: 98px;
   z-index: 2;
 }
 
@@ -468,7 +472,7 @@ body > section {
     font-weight: 600;
     margin-bottom: 30px;
     text-transform: uppercase;
-    font-family: 'Baloo Thambi', cursive;
+    // font-family: 'Baloo Thambi', cursive;
 }
 
 .service-features p {
@@ -476,7 +480,7 @@ body > section {
     font-size: 18px;
     margin-bottom: 20px; 
     color: #333;
-    font-family: 'Slabo 27px', serif;
+    // font-family: 'Slabo 27px', serif;
 }
 
 .service-features ul li i {
@@ -508,17 +512,19 @@ body > section {
 
 .project-filter ul li {
   padding: 0;
+  // border-right: 1px solid #333;
 }
 
 .project-filter ul li a {
     color: #777;
     display: block;
-    font-family: "Slabo 27px",serif;
-    font-weight: 600;
+    // font-family: "Slabo 27px",serif;
+    // font-weight: 600;
     letter-spacing: 1px;
     line-height: 18px;
     padding: 10px 12px;
     position: relative;
+    font-size: 18px;
 }
 
 .project-filter ul li a::before {
@@ -556,7 +562,8 @@ body > section {
     position: relative;
     float: left;
     overflow: hidden;
-    width: 25%;
+    width: 20%;
+    padding: 2%;
 }
 
 .plus {
@@ -662,7 +669,7 @@ body > section {
 
 .subtitle h3 {
     color: #555;
-    font-family: 'Baloo Thambi', cursive;
+    // font-family: 'Baloo Thambi', cursive;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 30px;
@@ -815,7 +822,7 @@ body > section {
 }
 
 .call-to-action p {
-    font-family: "Slabo 27px",serif;
+    // font-family: "Slabo 27px",serif;
     font-size: 36px;
     line-height: 1.4;
     margin-bottom: 35px;
@@ -911,6 +918,7 @@ body > section {
 
 .pricing-table ul li:last-child {
   margin-bottom: 0;
+  padding: 0 10% 10% 10%;
 }
 
 .btn-price {
@@ -932,7 +940,7 @@ body > section {
 }
 
 .special-plan p {
-    font-family: 'Slabo 27px', serif;
+    // font-family: 'Slabo 27px', serif;
     font-size: 20px;
     margin-bottom: 35px;
     color: #1f2021;
@@ -985,7 +993,14 @@ body > section {
   width: 100%;
 }
 
-.subscription-form #mail-submit {
+.subscription-form-img{
+  width: 56px;
+  position: absolute;
+  right: 350px;
+  top: 1px;
+}
+
+.subscription-form-a {
     background-color: #e7ef4a;
     border: 0 none;
     color: #333;
